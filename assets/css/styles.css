@@ -58,6 +58,7 @@
     --normal-font-size: 1rem;
     --small-font-size: .875rem;
     --smaller-font-size: .813rem;
+    --little-font-size: .750rem;
   }
 }
 
@@ -155,13 +156,19 @@ body.dark-theme {
 .section__title,
 .section__title-center {
   font-size: var(--h2-font-size);
-  margin-bottom: var(--mb-2);
   line-height: 140%;
 }
 
 .section__title-center {
   text-align: center;
 }
+
+    .section-description {
+      font-size: var(--small-font-size);
+      text-align: center;
+      color: var(--container-color);
+      margin-bottom: var(--mb-0-75);
+    }
 
 .container {
   max-width: 968px;
@@ -551,7 +558,7 @@ body.dark-theme {
 }
 
 .questions__item-title{
-  font-size: var(--small-font-size);
+  font-size: var(--little-font-size);
   font-weight: var(--font-medium);
 }
 
