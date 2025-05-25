@@ -671,7 +671,7 @@ body.dark-theme {
 
 .questions__item-title{
   font-size: var(--little-font-size);
-  font-weight: var(--font-medium);
+  font-weight: var(--font-semi-bold);
 }
 
 .questions__icon{
@@ -1040,8 +1040,8 @@ body.dark-theme {
   .questions__container,
   .contact__container,
   .footer__container{
-    grid-template-columns: repeat(2, 1fr);
-    gap: .5rem;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1.2rem;
   }
 
   .home {
